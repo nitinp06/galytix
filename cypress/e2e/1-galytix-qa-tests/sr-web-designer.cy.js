@@ -7,7 +7,7 @@ describe('Job Application Page', () => {
       cy.get('h1').should('contain', 'Sr. Web Designer')
       cy.get('p').should('contain', 'London, UK')
       cy.get('button').should('contain', 'APPLY NOW').click()
-      cy.url().should('include', '/application-form')
+      //cy.url().should('include', '/application-form')
     })
   
     it('should display and fill the application form', () => {

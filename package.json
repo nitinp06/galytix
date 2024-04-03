@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "cypress-iframe": "^1.0.1"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^5.0.8"
+  },
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:report": "node_modules\\.bin\\allure generate allure-results --clean",
+    "test": "npm run cy:run && npm run cy:report"
+  }
+}

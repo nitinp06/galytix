@@ -1,0 +1,3 @@
+import 'cypress-allure-plugin/commands';
+
+// ... your other Cypress commands ...

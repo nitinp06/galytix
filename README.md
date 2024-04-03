@@ -2,6 +2,7 @@
 # Cypress Tests for Job Application Page
 
 This repository contains Cypress tests for the Job Application Page of an Angular application.
+Test case path: cypress/e2e/1-galytix-qa-tests
 
 ## Running Tests
 
